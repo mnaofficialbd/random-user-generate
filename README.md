@@ -1,4 +1,6 @@
-### Random User Generator
+## Random User Generator
 
-#### Technology:
+### Live link of the API deployed: 
+
+#### Use Technology:
 `cors`, `express`
