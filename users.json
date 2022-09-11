@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Nicholas Runolfsdottir",
+        "gender": "male",
+        "contact": "1-770-736-8031 x56442",
+        "address": "Chical, Maryland",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 2,
+        "name": "Glenna Reichert",
+        "gender": "female",
+        "contact": "010-692-6593 x09125",
+        "address": "Morningside, North Carolina",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 3,
+        "name": "Cohen Mcknight",
+        "gender": "male",
+        "contact": "1-463-123-4447",
+        "address": "390 Just Court, Dola, Maine",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 4,
+        "name": "Thompson Bates",
+        "gender": "male",
+        "contact": "+1 (806) 584-2473",
+        "address": "Keyport, New Hampshire",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 5,
+        "name": "Clementina DuBuque",
+        "gender": "female",
+        "contact": "493-170-9623 x156",
+        "address": "New York",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 6,
+        "name": "Socorro Irwin",
+        "gender": "female",
+        "contact": "+1 (926) 526-3500",
+        "address": "Curtice, American Samoa ",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 7,
+        "name": "Therese Phillips",
+        "gender": "female",
+        "contact": "(254)954-1289",
+        "address": "Guam, 4429",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 8,
+        "name": "Chelsey Dietrich",
+        "gender": "male",
+        "contact": "+1 (807) 475-3701",
+        "address": " Greenwich, Vermont",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 9,
+        "name": "Kurtis Weissnat",
+        "gender": "male",
+        "contact": "+1 (852) 586-2162",
+        "address": "Homestead, Arkansas",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    },
+    {
+        "id": 10,
+        "name": "Nelda Stout",
+        "gender": "female",
+        "contact": "+1 (814) 519-2107",
+        "address": "Blende, Oklahoma",
+        "photoUrl": "https://via.placeholder.com/600/771796"
+    }
+]
