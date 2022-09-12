@@ -1,6 +1,3 @@
 ## Random User Generator
 
-### Live link of the API deployed: 
-
-#### Use Technology:
-`cors`, `express`,
+### Live link of the API deployed: https://random-user-generate.onrender.com

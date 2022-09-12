@@ -11,13 +11,11 @@ function getUsers() {
 module.exports.getAllUser = (req, res) => {
     if (req.query.num === undefined) {
         const users = getUsers();
-        console.log("hit", users);
         res.send(users);
     } else {
         const users = getUsers();
         const usersToBeShown = req.query.num;
         const result = users.splice(0, usersToBeShown);
-        console.log("hit with query");
         res.send(result);
     }
 };
@@ -33,14 +31,7 @@ module.exports.getRandomUser = (req, res) => {
 module.exports.saveAUser = (req, res) => {
     const user = req.body;
 
-    if (
-        !user.id ||
-        !user.name ||
-        !user.gender ||
-        !user.contact ||
-        !user.address ||
-        !user.photoUrl
-    ) {
+    if ( !user.id || !user.name || !user.gender || !user.contact || !user.address || !user.photoUrl ) {
         res.send("User missing");
     } else {
         const users = getUsers();
@@ -65,28 +56,16 @@ module.exports.updateAUser = (req, res) => {
     );
 
     if (!foundUser) {
-        res.send("no user found");
+        res.send("User not found");
     } else {
-        if (newInfo.id) {
-            foundUser.id = newInfo.id;
-        }
-        if (newInfo.gender) {
-            foundUser.gender = newInfo.gender;
-        }
-        if (newInfo.name) {
-            foundUser.name = newInfo.name;
-        }
-        if (newInfo.contact) {
-            foundUser.contact = newInfo.contact;
-        }
-        if (newInfo.address) {
-            foundUser.address = newInfo.address;
-        }
-        if (newInfo.photoUrl) {
-            foundUser.photoUrl = newInfo.photoUrl;
-        }
+        if (newInfo.id) { foundUser.id = newInfo.id; }
+        if (newInfo.name) { foundUser.name = newInfo.name; }
+        if (newInfo.gender) { foundUser.gender = newInfo.gender; }
+        if (newInfo.contact) { foundUser.contact = newInfo.contact; }
+        if (newInfo.address) { foundUser.address = newInfo.address; }
+        if (newInfo.photoUrl) { foundUser.photoUrl = newInfo.photoUrl; }
         fs.writeFileSync("users.json", JSON.stringify(users));
-        res.status(200).send("User update success");
+        res.status(200).send("User update successfull");
     }
 };
 
